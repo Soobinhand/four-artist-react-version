@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
+import React from 'react'
 import '../style/signup.css';
 
-class Signup extends Component{
-    render(){
+function Signup() {
     return(
     <div className="Signup">
         <h1 className="signup">회원가입</h1>
@@ -25,7 +23,7 @@ class Signup extends Component{
         
     </div>
     );
-}
+
 }
 
-export default Signup;
+export default Signup

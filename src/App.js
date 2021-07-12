@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Landingpage from './pages/Landingpage'
+import Q from './pages/Myprofile'
 //js 파일 자체를 import 뒤에 있는 이름으로 가져온거임 그저.
 //중요한 건 어디서 뭘 가져오냐지, 저 별명 즉 이름은 중요하지 않아.
 //저 js 파일을 이런 이름으로 가져오겠다는 것임.
@@ -10,7 +10,7 @@ function App(){
 
   return (
     <div className="App">
-      <Landingpage></Landingpage>
+      <Q />
     </div>
   )
   

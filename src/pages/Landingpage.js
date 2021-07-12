@@ -4,7 +4,7 @@ import '../style/Landingpage.css';
 
 function Landingpage(){
     return(
-        <div className="App">
+        <div className="Ladingpage">
      <h1 className="h11">예술을 위한<br></br>
      아티스트 소셜 네트워크<br></br><br></br></h1>
         <hr className="line"></hr><br></br>
