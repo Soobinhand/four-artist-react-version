@@ -16,12 +16,12 @@ function Header(){
     return(
         <div className="header">
             <div className="header__left">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png" alt="" />
+                <img src="img/로고컬러@3x.png" alt="" />
             </div>
             
             <div className="header__input">
                 <SearchIcon />
-                <input placeholder="Search Facebook" type="text" />
+                <input placeholder="Search" type="text" />
             </div>
 
             <div className="header__center">
