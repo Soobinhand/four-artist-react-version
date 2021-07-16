@@ -1,12 +1,21 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 .header{
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
+    width: 390px;
+    height: 90px;
     position: sticky;
-    background-color: white;
-    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
     top: 0;
-    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    margin: 0px 292px 10px 0px;
+    padding-left: 15px;
+    padding-top: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.header__left > .MuiSvgIcon-root{
+    color: #000000;
+    margin: 10px 20.8px 15px 10px;
+    font-size: 30px;
 }
 
 .header__left{
@@ -14,71 +23,143 @@
     justify-content: space-evenly;
 }
 
-.header__input{
-    display: flex;
-    align-items: center;
-    background-color: #eff2f5;
-    padding: 10px;
-    margin-left: 10px;
-    border-radius: 999px;
-}
+
 
 .header__left > img{
-    height: 40px;
+    width: 78px;
+    height: 30px;
+    margin: 5px 242px 24px 0;
+    object-fit: contain;
 }
 
-.header__input > input{
-    border: none;
-    background-color: transparent;
-    outline-width: 0;
-}
+
 
 .header__center{
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
-.header__option > .MuiSvgIcon-root{
-    color: gray;
-}
 
-.header__option:hover > .MuiSvgIcon-root{
-    color: #2e81f4;
-}
 
-.header__option--active > .MuiSvgIcon-root{
-    color: #2e81f4;
-}
-
-.header__option--active{
-    border-bottom: 4px solid #2e81f4;
-}
 
 .header__option{
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
+    width: 70px;
+    margin-bottom: 15px;
+    text-align: center;
     cursor: pointer;
+    margin-left: 8px;
+
+    
+}
+.header__option1{
+    width: 70px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+
+
+    
+}
+.header__option2{
+    width: 70px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 2px;
+
+    
+}
+.header__option3{
+    width: 70px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 2px;
+
+    
+}
+.header__option4{
+    width: 70px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 24px;
+
+    
 }
 
-.header__option:hover{
-    background-color: #eff2f5;
-    border-radius: 10px;
-    align-items: center;
-    padding: 0 30px;
-    border-bottom: none;
+
+.header__option > p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Nanum gothic';
+    padding-bottom: 10px;
+
+
+}
+.header__option1 > p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Nanum gothic';
+    padding-bottom: 10px;
+
+
+}
+.header__option2 > p{
+    
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Nanum gothic';
+    padding-bottom: 10px;
+
 }
 
-.header__info{
-    display: flex;
-    align-items: center;
+.header__option3 > p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Nanum gothic';
+    padding-bottom: 10px;
+
+}
+.header__option4 > p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Nanum gothic';
+    padding-bottom: 10px;
+
 }
 
-.header__info > h4{
-    margin-left: 10px;
+.header__option > p:hover{
+    border-bottom:  5px solid #000000;
+}
+.header__option1 > p:hover{
+    border-bottom:  5px solid #000000;
 }
 
-.header__right{
-    display: flex;
+
+
+.header__option2 > p:hover{
+    border-bottom:  5px solid #000000;
 }
+
+
+.header__option3 > p:hover{
+    border-bottom:  5px solid #000000;
+}
+
+
+.header__option4 > p:hover{
+    border-bottom:  5px solid #000000;
+    
+}
+
+
+
+
+
+
+
+

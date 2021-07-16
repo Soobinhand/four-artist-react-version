@@ -1,72 +1,57 @@
 import React from 'react'
 import "./Header.css";
 import SearchIcon from '@material-ui/icons/Search';
-import HomeIcon from '@material-ui/icons/Home';
-import FlagIcon from '@material-ui/icons/Flag';
-import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
-import StorefrontIcon from '@material-ui/icons/Storefront';
-import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
-import {Avatar, IconButton} from "@material-ui/core";
-import AddIcon from "@material-ui/icons/Add";
-import ForumIcon from '@material-ui/icons/Forum';
-import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { useStateValue } from './StoryProvider';
+import Home from './Home';
+import { useState } from 'react';
+import Community from './Community';
 
 function Header(){
 
-    const [{user},dispatch] = useStateValue();
+    const [comp, setComp] = useState();
+
+ 
 
     return(
         <div className="header">
+
+            
             <div className="header__left">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png" alt="" />
+                <img src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/205F8293-28C8-4D1E-BA74-3D12B733A0C0.png" alt="" />
+                <SearchIcon />
             </div>
             
-            <div className="header__input">
-                <SearchIcon />
-                <input placeholder="Search Facebook" type="text" />
-            </div>
-
+        
             <div className="header__center">
-                <div className="header__option
-                header__option--active">
-                    <HomeIcon fontSize="large"/>
+
+                <div className="header__option"
+                onClick={() => setComp(Home)}
+                
+                >
+                    <p>홈</p>
                 </div>
-                <div className="header__option">
-                    <FlagIcon fontSize="large"/>
+
+                <div className="header__option1"
+                onClick={() => setComp(Community)}
+
+                >
+                    <p>커뮤니티</p>
                 </div>
-                <div className="header__option">
-                    <SubscriptionsIcon fontSize="large"/>
+
+                <div className="header__option2">
+                    <p>팀 채널</p>
                 </div>
-                <div className="header__option">
-                    <StorefrontIcon fontSize="large"/>
+
+                <div className="header__option3">
+                    <p>알림</p>
                 </div>
-                <div className="header__option">
-                    <SupervisedUserCircleIcon fontSize="large"/>
+
+                <div className="header__option4">
+                    <p>MY</p>
                 </div>
+
             </div>
-
-
-            <div className="header__right">
-                <div className="header__info">
-                    <Avatar src={user.photoURL} />
-                    <h4>{user.displayName}</h4>
-                </div>
-
-                <IconButton>
-                    <AddIcon />
-                </IconButton>
-                <IconButton>
-                    <ForumIcon />
-                </IconButton>
-                <IconButton>
-                    <NotificationsActiveIcon />
-                </IconButton>
-                <IconButton>
-                    <ExpandMoreIcon />
-                </IconButton>
-            </div>
+            <main children={comp} />
+          
         </div>
                 
     )

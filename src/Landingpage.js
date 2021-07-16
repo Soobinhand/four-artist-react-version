@@ -1,10 +1,34 @@
+import { Button } from '@material-ui/core';
 import React from 'react'
-import '../style/Landingpage.css';
-
+import './Landingpage.css';
+import { auth, provider } from "./firebase";
+import { useStateValue } from './StoryProvider';
+import { actionTypes } from './reducer';
 
 function Landingpage(){
+
+  const [state,dispatch] = useStateValue();
+
+    const signIn = () =>{
+        //Sign in...
+        auth
+        .signInWithPopup(provider)
+        .then(result => {
+
+            dispatch({
+                type: actionTypes.SET_USER,
+                user: result.user,
+            });
+
+
+
+        })
+        .catch((error) => alert(error.message));
+    };
+
+
     return(
-        <div className="Ladingpage">
+        <div className="Landingpage">
      <h1 className="h11">예술을 위한<br></br>
      아티스트 소셜 네트워크<br></br><br></br></h1>
         <hr className="line"></hr><br></br>
@@ -14,24 +38,20 @@ function Landingpage(){
         
         <p className="rt">예술과 관련된 다양한 사람들을 만날 수 있는 <b>4RT</b> <br></br>
             다양한 아티스트와 소통하며 예술활동을 공유하고, 협업해보세요</p>  
-            <a href='#!' className="btn_social" data-social="google">
-        <img src="img/Button-구글로그인@3x.png" alt="" ></img>        <br></br><br></br>
-
-      </a>      
+            
+      <Button type="submit" onClick={signIn} className="btn-social">
+        <img src="img/Button-구글로그인@3x.png" alt="" className="btn-social" style={{width: "220px", marginBottom:"18px"}}></img>   
+      </Button>     
       
-      <a href='#!' className="btn_social" data-social="facebook">
-        <img src="img/Button-Facebook로그인@3x.png" alt="" ></img>        <br></br><br></br>
-
-      </a>      
-      
-      <a href='#!' className="btn_social" data-social="naver">
-        <img src="img/Button-네이버로그인@3x.png" alt="" ></img>        <br></br><br></br>
-
-      </a>
-      <a href='#!' className="btn_social" data-social="kakao">
-        <img src="img/Button-카카오로그인@3x.png" alt="" ></img>        <br></br><br></br>
-
-      </a>           
+      <Button type="submit" onClick={signIn} className="btn-social">
+        <img src="img/Button-Facebook로그인@3x.png" alt="" className="btn-social" style={{width: "220px", marginBottom:"18px"}}></img>   
+      </Button> 
+       <Button type="submit" onClick={signIn} className="btn-social">
+        <img src="img/Button-네이버로그인@3x.png" alt="" className="btn-social" style={{width: "220px", marginBottom:"18px"}}></img>   
+      </Button>           
+      <Button type="submit" onClick={signIn} className="btn-social">
+        <img src="img/Button-카카오로그인@3x.png" alt="" className="btn-social" style={{width: "220px", marginBottom:"18px"}}></img>   
+      </Button>  
 
         <hr className="line"></hr>
         <p className="rrt">회원가입 시 <a href='#!'>

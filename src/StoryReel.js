@@ -6,29 +6,29 @@ function StoryReel() {
     return (
         <div className="storyReel">
             <Story
-            image="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+            image="https://images.velog.io/images/soobinhand/profile/5eab1301-6bbd-4cb2-8d1a-e0c7eaef1e29/KakaoTalk_20201006_171245012.jpg"
             profileSrc=""
-            title="soobinhand"
+            title="손수빈"
             />
             <Story
-            image="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+            image="https://images.velog.io/images/soobinhand/profile/5eab1301-6bbd-4cb2-8d1a-e0c7eaef1e29/KakaoTalk_20201006_171245012.jpg"
             profileSrc=""
-            title="soobinhand"
+            title="손수빈"
             />
             <Story
-            image="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+            image="https://images.velog.io/images/soobinhand/profile/5eab1301-6bbd-4cb2-8d1a-e0c7eaef1e29/KakaoTalk_20201006_171245012.jpg"
             profileSrc=""
-            title="soobinhand"
+            title="손수빈"
             />
             <Story
-            image="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+            image="https://images.velog.io/images/soobinhand/profile/5eab1301-6bbd-4cb2-8d1a-e0c7eaef1e29/KakaoTalk_20201006_171245012.jpg"
             profileSrc=""
-            title="soobinhand"
+            title="손수빈"
             />
             <Story
-            image="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+            image="https://images.velog.io/images/soobinhand/profile/5eab1301-6bbd-4cb2-8d1a-e0c7eaef1e29/KakaoTalk_20201006_171245012.jpg"
             profileSrc=""
-            title="soobinhand"
+            title="손수빈"
             />
         </div>
     )
