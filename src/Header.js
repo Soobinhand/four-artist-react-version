@@ -1,68 +1,43 @@
 import React from 'react'
 import "./Header.css";
 import SearchIcon from '@material-ui/icons/Search';
-import HomeIcon from '@material-ui/icons/Home';
-import FlagIcon from '@material-ui/icons/Flag';
-import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
-import StorefrontIcon from '@material-ui/icons/Storefront';
-import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
-import {Avatar, IconButton} from "@material-ui/core";
-import AddIcon from "@material-ui/icons/Add";
-import ForumIcon from '@material-ui/icons/Forum';
-import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 function Header(){
     return(
         <div className="header">
             <div className="header__left">
                 <img src="img/로고컬러@3x.png" alt="" />
+                <SearchIcon />
+
             </div>
             
-            <div className="header__input">
-                <SearchIcon />
-                <input placeholder="Search" type="text" />
-            </div>
+        
 
             <div className="header__center">
                 <div className="header__option
                 header__option--active">
-                    <HomeIcon fontSize="large"/>
+                    <h1>홈</h1>
                 </div>
-                <div className="header__option">
-                    <FlagIcon fontSize="large"/>
+                <div className="header__option
+                header__option--active">  
+                              <h1>커뮤니티</h1>
                 </div>
-                <div className="header__option">
-                    <SubscriptionsIcon fontSize="large"/>
+                <div className="header__option
+                header__option--active">           
+                     <h1>팀 채널</h1>
                 </div>
-                <div className="header__option">
-                    <StorefrontIcon fontSize="large"/>
+                <div className="header__option
+                header__option--active">     
+                           <h1>알림</h1>
                 </div>
-                <div className="header__option">
-                    <SupervisedUserCircleIcon fontSize="large"/>
+                <div className="header__option
+                header__option--active">         
+                       <h1>MY</h1>
                 </div>
             </div>
 
 
-            <div className="header__right">
-                <div className="header__info">
-                    <Avatar />
-                    <h4>soobinhand</h4>
-                </div>
-
-                <IconButton>
-                    <AddIcon />
-                </IconButton>
-                <IconButton>
-                    <ForumIcon />
-                </IconButton>
-                <IconButton>
-                    <NotificationsActiveIcon />
-                </IconButton>
-                <IconButton>
-                    <ExpandMoreIcon />
-                </IconButton>
-            </div>
+         
         </div>
                 
     )
