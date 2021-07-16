@@ -1,7 +1,7 @@
 import './App.css';
 import Feed from './Feed';
 import Header from './Header.js';
-import Login from './Login';
+import Landingpage from './Landingpage';
 import Sidebar from './Sidebar';
 import { useStateValue } from './StoryProvider';
 import Widgets from './Widgets';
@@ -10,11 +10,10 @@ function App() {
 
   const [{user},dispatch] = useStateValue();
 
-
   return (
     <div className="App">
       {!user ? (
-        <Login />
+        <Landingpage />
       ) : (
         <>
           <Header />
