@@ -6,20 +6,22 @@
     width: 370px;
     height: 160px;
     border-radius: 9px;
-    margin-top: 10px;
+    margin-top: 15px;
     transition: transform 100ms ease-in;
     cursor: pointer;
 }
 
 .story2:hover{
-    transform: scale(1.07);
+    transform: scale(1.01);
 }
 
 .story2__avatar{
     margin-top: 10px;
     margin-left: 16px;
-    background-color: aliceblue;
+    background-color: white;
 }
+
+
 
 .story2 > h4{
     position: absolute;

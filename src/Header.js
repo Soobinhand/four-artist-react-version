@@ -28,7 +28,6 @@ function Header(){
 
                 <div className="header__option"
                 onClick={() => setComp(Home)}
-                
                 >
                     <p>홈</p>
                 </div>

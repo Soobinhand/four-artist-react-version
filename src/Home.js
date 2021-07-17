@@ -3,12 +3,10 @@ import './Home.css';
 import StoryReel from './StoryReel';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import StoryReel2 from './StoryReel2';
+import StoryReel3 from './StoryReel3';
 
 function Home() {
     
-
-
-
     return (
         <div className='home'>
                <StoryReel />
@@ -17,6 +15,9 @@ function Home() {
                     <ChevronRightIcon />
                </div>
                <StoryReel2 />
+               <StoryReel3 />
+
+
 
 
         </div>

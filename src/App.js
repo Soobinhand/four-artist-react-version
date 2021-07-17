@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Header.js';
 import Landingpage from './Landingpage';
 import { useStateValue } from './StoryProvider';
-
+import {Route, Router} from 'react-router-dom'
 
 function App() {
 
@@ -14,7 +14,10 @@ function App() {
         <Landingpage />
       ) : (
         <>
-          <Header />
+        <Header />
+
+
+      
           
           
         </>

@@ -1,0 +1,49 @@
+.story3{
+    position: relative;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 90px;
+    padding-right: 2px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ff0000;
+}
+
+.story3 > img{
+    width: 85px;
+    height: 90px;
+    margin: 0 16px 0 0;
+    border-radius: 8px;
+}
+
+
+
+.story3:hover{
+    transform: scale(1.01);
+}
+
+
+
+
+.story3 > p{
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    color: rgb(0, 0, 0);
+    width: 270px;
+    height: 51px;
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+
+
