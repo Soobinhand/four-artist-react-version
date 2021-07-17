@@ -7,7 +7,7 @@ function Home() {
     return (
         <div className='home'>
                <StoryReel />
-
+                <h1>4RT</h1>
         </div>
     )
 }
