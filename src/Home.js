@@ -1,13 +1,24 @@
 import React from 'react'
 import './Home.css';
 import StoryReel from './StoryReel';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import StoryReel2 from './StoryReel2';
 
 function Home() {
     
+
+
+
     return (
         <div className='home'>
                <StoryReel />
-                <h1>4RT</h1>
+               <div className="home__4rt">
+                    <h1>4RT</h1>
+                    <ChevronRightIcon />
+               </div>
+               <StoryReel2 />
+
+
         </div>
     )
 }

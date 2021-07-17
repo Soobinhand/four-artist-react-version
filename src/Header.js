@@ -4,6 +4,9 @@ import SearchIcon from '@material-ui/icons/Search';
 import Home from './Home';
 import { useState } from 'react';
 import Community from './Community';
+import Teamchannel from './Teamchannel';
+import Notice from './Notice';
+import My from './My';
 
 function Header(){
 
@@ -37,16 +40,31 @@ function Header(){
                     <p>커뮤니티</p>
                 </div>
 
-                <div className="header__option2">
+                <div className="header__option2"
+                onClick={() => setComp(Teamchannel)}
+
+                >
                     <p>팀 채널</p>
                 </div>
 
-                <div className="header__option3">
+                <div className="header__option3"
+                onClick={() => setComp(Notice)}
+
+                >
                     <p>알림</p>
                 </div>
 
-                <div className="header__option4">
+                <div className="header__option4"
+                onClick={() => setComp(My)}
+
+                >
                     <p>MY</p>
+                </div>
+                <div className="header__option5"
+                onClick={() => setComp(My)}
+
+                >
+                    <p>&nbsp;</p>
                 </div>
 
             </div>
