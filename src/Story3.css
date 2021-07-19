@@ -9,7 +9,7 @@
     padding-right: 2px;
     border-radius: 8px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.16);
-    background-color: #ff0000;
+    background-color: #ffffff;
 }
 
 .story3 > img{
@@ -28,21 +28,27 @@
 
 
 
-.story3 > p{
+.story3__div__1{
     position: absolute;
-    bottom: 20px;
-    left: 90px;
+    bottom: 30px;
+    margin-left: 101px;
     color: rgb(0, 0, 0);
     width: 270px;
     height: 51px;
-    font-size: 18px;
-    font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
+    font-size: 14px;
+    font-weight: 900;
     line-height: 1.67;
-    letter-spacing: normal;
     text-align: left;
-    color: #000000;
+}
+.story3__div__2{
+    position: relative;
+    color: #606060;
+    width: 237px;
+    height: 51px;
+    font-size: 12px;
+    line-height: 1.67;
+    margin-left: 101px;
+    bottom: 50px;
 }
 
 

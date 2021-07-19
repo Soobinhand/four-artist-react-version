@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     width: 370px;
     height: 160px;
-    border-radius: 9px;
     margin-top: 15px;
     transition: transform 100ms ease-in;
     cursor: pointer;
@@ -25,7 +24,6 @@
 
 .story2 > h4{
     position: absolute;
-    bottom: 20px;
     left: 20px;
     color: white;
     width: 330px;
