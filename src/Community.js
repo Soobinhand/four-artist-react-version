@@ -1,11 +1,28 @@
 import React from 'react'
+import CAdvertise from './CAdvertise';
 import './Community.css';
+import CommunityFilter from './CommunityFilter';
+import CommunityPost from './CommunityPost';
+import PostIcon from './PostIcon';
 
 function Community() {
    
     return (
         <div className='community'>
-            여기는 커뮤니티입니다.
+            <CommunityFilter />
+            <CAdvertise />
+            <CommunityPost />
+            <CommunityPost />
+            <CommunityPost />
+            <PostIcon />
+
+            <CommunityPost />
+            <CommunityPost />
+
+            
+
+            
+
         </div>
     )
 }

@@ -1,0 +1,7 @@
+.posticon{
+    position: fixed;
+    margin-left: 313px;
+    bottom: 165px;
+    z-index: 1000;
+    cursor: pointer;
+}

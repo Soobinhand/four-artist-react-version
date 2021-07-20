@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Header.css";
-import SearchIcon from '@material-ui/icons/Search';
 import Home from './Home';
 import { useState } from 'react';
 import Community from './Community';
