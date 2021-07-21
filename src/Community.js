@@ -3,6 +3,7 @@ import CAdvertise from './CAdvertise';
 import './Community.css';
 import CommunityFilter from './CommunityFilter';
 import CommunityPost from './CommunityPost';
+import PageIndicator from './PageIndicator';
 import PostIcon from './PostIcon';
 
 function Community() {
@@ -15,9 +16,9 @@ function Community() {
             <CommunityPost />
             <CommunityPost />
             <PostIcon />
-
             <CommunityPost />
             <CommunityPost />
+            <PageIndicator />
 
             
 
