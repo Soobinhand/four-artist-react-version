@@ -39,6 +39,12 @@
     height: 30px;
     margin: 2.5px 0px 0px 0px;
     object-fit: contain;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+.header__search:hover{
+    transform: scale(1.2)
 }
 
 

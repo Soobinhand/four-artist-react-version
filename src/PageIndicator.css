@@ -9,7 +9,11 @@
     cursor: pointer;
     
 }
+.pageindicator__page:hover{
+    background-color: #d4d4d4;
 
+    
+}
 .pageindicator{
     display: flex;
     margin-top: 48px;
@@ -22,12 +26,17 @@
     cursor: pointer;
     margin-bottom: 116px;
 }
+.pageindicator__left > button:hover{
+    background-color: #d4d4d4;
+}
 .pageindicator__right > button{
     border-radius: 50%;
     border: none;
     cursor: pointer;
 }
-
+.pageindicator__right > button:hover{
+    background-color: #d4d4d4;
+}
 .pageindicator__page > p{
     margin-top: 9.5px;
     width: 40px;

@@ -37,6 +37,10 @@
     height: 33px;
     margin-right: 25px;
     margin-top: 1px;
+
+}
+.cpc__bookmark:hover{
+    opacity: 2;   
 }
 
 .cpc__header{
@@ -53,6 +57,11 @@
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
     cursor: pointer;
+}
+
+.communitypostcard:hover{
+   opacity: 0.77;
+
 }
 
 .cpc__feed1{

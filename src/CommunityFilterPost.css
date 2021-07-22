@@ -11,8 +11,11 @@
     text-align: left;
     color: #000000;
     margin: 12px 10px;
-    border-radius: 5px;
-    border: solid 1px #ededed;
     background-color: #ffffff;
     cursor: pointer;
+}
+
+.communityfilterpost > p:hover{
+    font-size: 15px;
+    
 }

@@ -1,10 +1,13 @@
 import React from 'react'
 import './Teamchannel.css'
+import TeamChannelCard from './TeamChannelCard'
+import TeamChannelHeader from './TeamChannelHeader'
 
 function Teamchannel() {
     return (
         <div className='teamchannel'>
-            여기는 팀채널입니다.
+            <TeamChannelHeader />
+            <TeamChannelCard />
         </div>
     )
 }
