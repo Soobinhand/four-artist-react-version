@@ -16,20 +16,21 @@ function Header(){
  
 
     return(
+
         <div className="header">
 
-            
             <div className="header__left">
-                <img className="header__logo" src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/205F8293-28C8-4D1E-BA74-3D12B733A0C0.png" alt="" />
+                <img onClick={()=>setComp(Home)} className="header__logo" src="https://cdn.zeplin.io/609bad0ebfc228be481a98d2/assets/205F8293-28C8-4D1E-BA74-3D12B733A0C0.png" alt="" />
                 <img className="header__search" src="https://cdn.zeplin.io/609baf49911d5b01a5433e14/assets/EB68E34B-7DA4-4EE9-BF93-3522536CD0FC.svg" alt="검색" />
             </div>
             
         
             <div className="header__center">
-
                 <div className="header__option"
                 onClick={() => setComp(Home)}
                 >
+                    
+                   
                     <p>홈</p>
                 </div>
 
@@ -70,9 +71,7 @@ function Header(){
             </div>
             <main children={comp} />
             
-          
         </div>
-                
     )
 }
 

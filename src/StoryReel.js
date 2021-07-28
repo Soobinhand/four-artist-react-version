@@ -7,16 +7,15 @@ function StoryReel() {
         <div className="storyReel">
             <Story
             image="https://images.velog.io/images/soobinhand/profile/5eab1301-6bbd-4cb2-8d1a-e0c7eaef1e29/KakaoTalk_20201006_171245012.jpg"
+            title="양천문화재단"
+            
+            />
+            <Story
+            image="https://images.velog.io/images/soobinhand/profile/5eab1301-6bbd-4cb2-8d1a-e0c7eaef1e29/KakaoTalk_20201006_171245012.jpg"
             title="손수빈"
             />
             <Story
             image="https://images.velog.io/images/soobinhand/profile/5eab1301-6bbd-4cb2-8d1a-e0c7eaef1e29/KakaoTalk_20201006_171245012.jpg"
-            profileSrc=""
-            title="손수빈"
-            />
-            <Story
-            image="https://images.velog.io/images/soobinhand/profile/5eab1301-6bbd-4cb2-8d1a-e0c7eaef1e29/KakaoTalk_20201006_171245012.jpg"
-            profileSrc=""
             title="손수빈"
             />
             
