@@ -28,6 +28,7 @@ function Header(){
             <div className="header__center">
                 <div className="header__option"
                 onClick={() => setComp(Home)}
+                
                 >
                     
                    
