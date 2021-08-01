@@ -9,11 +9,7 @@ import My from './My/My';
 
 function Header(){
 
-    
-
     const [comp, setComp] = useState();
-
- 
 
     return(
 
