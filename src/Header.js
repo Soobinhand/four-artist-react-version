@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Header.css";
-import Home from './Home';
+import Home from './Home/Home';
 import { useState } from 'react';
-import Community from './Community';
-import Teamchannel from './Teamchannel';
-import Notice from './Notice';
-import My from './My';
+import Community from './Community/Community';
+import Teamchannel from './TeamChannel/Teamchannel';
+import Notice from './Notice/Notice';
+import My from './My/My';
 
 function Header(){
 
