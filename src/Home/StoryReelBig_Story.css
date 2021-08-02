@@ -1,0 +1,54 @@
+.storyreelbig_story{
+    width: 390px;
+    height: 844px;
+    padding-top: 39px;
+    padding-left: 20px;
+    background-color: #000000;
+}
+
+.storyreelbig_story_text{
+    width: 102px;
+    height: 21px;
+    font-family: 'Nanum Gothic';
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.storyreelbig_story_img{
+    width: 410px;
+    height: 644px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.storyreelbig_story_btn{
+    width: 351px;
+    height: 36px;
+    margin: 10px 19px 0 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: 'Nanum Gothic';
+    font-weight: 800;
+    font-size: 13px;
+    cursor: pointer;
+}
+.storyreelbig_story_x{
+    margin-left: 220px;
+    margin-top: -10px;
+}
+
+.storyreelbig_story_text_x{
+    display: flex;
+}
+
+.storyreelbig_story_line{
+    width: 365px;
+  height: 0;
+  margin-top: 20px;
+  border: solid 2px #ffffff;
+}
