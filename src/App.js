@@ -1,7 +1,9 @@
 import './App.css';
 import Header from './Header.js';
+import StoryReelBig from './Home/StoryReelBig';
 import Landingpage from './Landingpage';
 import { useStateValue } from './StoryProvider';
+import { BrowserRouter, Route, Router } from 'react-router-dom';
 
 
 function App() {
@@ -15,7 +17,8 @@ function App() {
         <Landingpage />
       ) : (
         <>
-        <Header />
+        <StoryReelBig />
+
 
 
       
