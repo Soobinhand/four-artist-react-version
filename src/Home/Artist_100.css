@@ -1,0 +1,152 @@
+.artist_100_img > img{
+    width: 390px;
+}
+
+.artist_100{
+    width: 390px;
+}
+
+.artist_100_text1{
+    font-size: 18px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Nanum Gothic';
+    font-weight: 800;
+
+}
+
+.artist_100_text2{
+    position: absolute;
+    font-size: 20px;
+    margin-top: -50px;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Nanum Gothic';
+    font-weight: 800;
+
+}
+
+.artist_100_text3{
+    width: 170px;
+    height: 23px;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.artist_100_line{
+    width: 350px;
+    height: 2px;
+    margin-left: 20px;
+    margin-top: 9px;
+    background-color: #000;
+  
+}
+
+.artist_100_text4{
+    width: 350px;
+    height: 38px;
+    margin-left: 20px;
+    margin-top: 9px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.artist_100_tip{
+    width: 22px;
+    height: 19px;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.artist_100_text5{
+    width: 350px;
+    height: 17px;
+    font-family: 'Nanum Gothic';
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #000;
+}
+
+.artist_100_text6{
+    width: 350px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 19px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.artist_100_img1{
+      width: 390px;
+  height: 85px;
+  margin: 10px 0 0;
+  object-fit: contain;
+  margin-bottom: 40px;
+}
+
+.artist_100_img2{
+    width: 259px;
+    height: 291px;
+    margin: 10px 45px 0px 76px;
+    object-fit: contain;
+}
+
+.artist_100_text7{
+    width: 350px;
+    height: 16px;
+    margin: 10px 0 20px 30px;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.gongbak{
+    height: 100px;
+}
