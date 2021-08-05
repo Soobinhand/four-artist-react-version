@@ -29,9 +29,6 @@ function Home() {
                </div>
                <Sponsor />
                 
-
-
-
         </div>
     )
 }
